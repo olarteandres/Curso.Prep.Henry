@@ -1,0 +1,24 @@
+Variables: es una forma de guardar el valor de algo ( palabra, imagen, etc ) para usarlo mas tarde. queda guardado con ese nombre, entonces vas a poder usar eso mismo de nuevo solo usando el nombre de esa var ( variable )
+
+Strings: es como se indica donde comienza y termina el nombre de una veriable, este se indica con comillas al principio y fin de la palabra o frese. ejemplo: 'firulais'
+
+Funciones:son objetos llamados objetos invocables, con la misma propiedad q cualquier otro objeto. las funciones las necesitamos para poder darle una "orden" a las var y q se puedan ejecutar.
+Ejemplo de una funcion:
+*function miFuncion() {}
+una funcion empieza SIEMPRE con la palabra clave function seguido de un espacio y el nombre de dicha funcion. seguido de abre y cierra parentesis y abre y cierre corchetes.
+-Argumentos: una vez q tenemos una funcion podemos decirle a esta funcion q haga algo mas mediante una var, es decir cuando declaramos la funcion ( escribimos el ejemplo anterioir ), si agregamos una var entre parentesis podemos usar esta var dentro de nuestra funcion. A esto se llama dar argumento a una funcion. Tambien podemos agregar mas de 1 argumento poniendo una coma entre ellos. 
+Ejemplo: function logHola(nombre) {
+    console.log('Hola, ' + nombre);
+}
+
+logHola('Martin');
+
+-return:se usa para devolver los datos de una funcion. Tener en cuanta q al tocar una funcion con un retur se frena todo lo q esta haciendo y devuelve lo q especificamos.
+
+-Declaraciones if: son controladores de flujo y comparacion. eñ control de flujo sirve para verificar si nuestra funcion es verdadera ( True ) si se ejecuta el comando q utilizamos en nuestra funcion o no. esto tiene el nombre de if.
+-Comparacion: Los operadores de comparación evalúan dos elementos y devuelven verdadero o falso. Estos operadores son: <, <=, >, > =, ===, ! ==
+
+Valores booleanos: significa que tiene dos opciones, activar o desactivar, 0 o 1, verdadero o falso
+Es un concepto que alimenta el código binario y el núcleo de las computadoras
+
+
